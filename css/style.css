@@ -135,6 +135,26 @@ a:hover{
 	}
 }
 
+#fh5co-started,
+#fh5co-author,
+#fh5co-work,
+#fh5co-about,
+#fh5co-contact,
+#fh5co-footer {
+  padding: 7em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-started,
+  #fh5co-author,
+  #fh5co-work,
+  #fh5co-about,
+  #fh5co-contact,
+  #fh5co-footer {
+    padding: 3em 0;
+  }
+}
+
 .section {
 	background-color: #dbdcd2;
 	background-image: url(/images/bg.jpg);
@@ -192,6 +212,7 @@ a:hover{
 }
 
 /* about */
+
 .aboutCard {
 	background-color: #fff;
 	width: 80%;
@@ -200,6 +221,12 @@ a:hover{
 	border-radius: 30px;
 	box-shadow: 0 8px 15px 0 rgba(109, 102, 74, 0.2);
 }
+/* @media screen and (max-width: 400px) {
+	.aboutCard{
+		width: 80%;
+	    height: -100%;
+	}
+  } */
 
 .author {
 	width: 100%;
@@ -216,6 +243,7 @@ a:hover{
 	height: 250px;
 	border-radius: 50%;
 	float: left;
+	margin-left: 10%;
 }
 
 @media screen and (max-width: 560px) {
